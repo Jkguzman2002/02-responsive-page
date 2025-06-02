@@ -128,6 +128,29 @@ a:hover {
   height: auto;
 }
 
+/* Navigation links styles */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0 0;
+  text-align: center;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 14px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 600px) {
   
