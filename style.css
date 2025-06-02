@@ -10,12 +10,20 @@ body {
 header {
   background: #333;
   color: #fff;
-  padding: 16px;
-  text-align: center;
+  padding: 16px 0;
   font-family: 'Exo 2', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 16px;
 }
 
 h1, h2, h3 {
