@@ -13,6 +13,9 @@ header {
   padding: 16px;
   text-align: center;
   font-family: 'Exo 2', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1, h2, h3 {
@@ -130,10 +133,11 @@ a:hover {
 
 /* Navigation links styles */
 .nav-links {
+  display: flex;
+  gap: 1.5rem;
   list-style: none;
   padding: 0;
-  margin: 12px 0 0 0;
-  text-align: center;
+  margin: 0;
 }
 
 .nav-links li {
